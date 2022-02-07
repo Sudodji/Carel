@@ -1,0 +1,55 @@
+@import "general.scss";
+
+.man{
+    margin-top: 180px;  
+    &_text{margin-top: 139px!important;}      
+    &_subtitle{
+        @include fontz(24px, 38px, normal);
+        color: $color-2;
+    }
+    &_list{
+        list-style: none;
+        padding-left: 80px;
+        &-item{ @include fontz(24px, 60px, 700);}
+        span{
+            color: $color-2;
+            margin-left: 12px;
+        }
+    }
+    &_photo{
+        position: absolute;
+        height: 135%;
+        width: 100%;
+        top: 0;
+        z-index: -3;
+        background-size: 100%!important; 
+    }
+    &_form{
+        margin-top: 284px;
+        padding-left: 100px;
+        &-title{
+            color: $color-3;
+            @include fontz(30px, 44px, 700);
+        }
+    }
+    &_big_red-block{
+        background-color: #ff0000;
+        position: absolute;
+        z-index: -2;
+        width: 118%;
+        height: 773px;
+        bottom: -198px;
+        left: -104px;
+        transform: rotate(11deg);
+    }
+    &_triangle-right{
+        position: absolute;
+        border-top: 1038px solid #e0e0e0;
+        border-right: 316px solid transparent;
+        z-index: -1;
+        transform: rotate(84deg);
+        left: 600px;
+        top: 371px;
+        border-left: 1865px solid transparent;
+    }
+}

@@ -1,0 +1,24 @@
+@import "general.scss";
+
+.reviews_block{
+    margin-top: 215px;
+    &-title{
+        @include fontz(50px, 73px, 900);
+        color: $color-1;
+    }
+    &-subtitle{
+        @include fontz(20px,32px, normal);
+        color: #353535;
+        margin-top: 31px;
+    }
+    &_big-line{
+        background-color: $color-4;
+        position: absolute;
+        z-index: -1;
+        width: 118%;
+        height: 896px;
+        bottom: -219px;
+        left: -104px;
+        transform: rotate(11deg);
+    }
+}

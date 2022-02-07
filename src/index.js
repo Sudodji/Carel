@@ -1,0 +1,11 @@
+import './scss/require.scss';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel';
+import 'jquery';
+import './carousel';
+import './scroll-button';
+import 'lightbox2/dist/css/lightbox.css';
+import 'lightbox2/dist/js/lightbox.js';
+import 'lightbox2/dist/js/lightbox.min.js';

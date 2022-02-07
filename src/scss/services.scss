@@ -1,0 +1,66 @@
+@import "general.scss";
+
+.services-center{
+    margin-top: 157px;
+    &_title{
+        color:$color-1;
+        @include fontz(50px, 50px, 900);
+    }
+    &_subtitle{
+        color: $color-2;
+        @include fontz(24px, 38px, normal);
+        margin-top: 36px;
+    }
+}
+    .services_triangle-right {
+        position: absolute;
+        top: -226px;
+        width: 0;
+        height: 0;
+        border-top: 302px solid transparent;
+        border-left: 1798px solid;
+        border-bottom: 363px solid transparent;
+        color: $color-4;
+        z-index: -1;
+    }
+.important_components{
+    margin-top: 202px;
+    text-align: center;
+    &_title{
+        color: $color-1;
+        @include fontz(42px, 67px, 900);
+    }
+    &_subtitle{
+        color:$color-2;
+        @include fontz(24px, 33px, normal);
+    }
+}
+.components_list{
+    margin-top: 250px!important;
+    p{
+         color: $color-3;
+        @include fontz(30px, 42px, 700);  
+    }
+    &_second-item{padding-top: 70px;}
+    &_third-item{padding-top: 160px;}
+    span{
+        z-index: -1;
+        position: absolute;
+        @include fontz(100px, 140px, 900);
+        color: $color-3;
+        opacity: 0.3;
+    }
+    &_first-number{ bottom: 190px;}
+    &_second-number{bottom: 118px;}
+    &_third-number{bottom: 30px;}
+}
+.services_big-line{
+    background-color: #ff0000;
+    position: absolute;
+    z-index: -2;
+    width: 118%;
+    height: 289px;
+    bottom: -34px;
+    left: -51px;
+    transform: rotate(11deg);
+}

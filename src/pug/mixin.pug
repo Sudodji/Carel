@@ -1,0 +1,243 @@
+-
+    var listVar = [{text: "Центры обработки данных(ЦОД)"}, {text: "Текстильное/пищевое/фармацевтическое производство"}, {text: "Компьютерные залы и станции связи"}, {text: "Оранжереи"}, {text: '"Чистые" помещения'}, {text: "Холодильные камеры и др."}]
+-
+    var humi_buttonVar = [{text: "Изотремические увлажнители", id: "pills-isothermal-tab", data: "#pills-isothermal"},
+     {text: "Адиабатические увлажнители", id: "pills-adiabatic-tab", data: "#pills-adiabatic"}, 
+     {text: "Испарительное охлаждение", id: "pills-evaporative-tab", data: "#pills-evaporative"}]
+-
+    var humi_list_blockVar = [{model: "Увлажнители с погружными электродами UE* humiSteam", id: "v-pills-humiSteam-tab", data: "#v-pills-humiSteam"},
+    {model: "Увлажнители с погружными электродами UER* thermoSteam", id: "v-pills-thermoSteam-tab", data: "#v-pills-thermoSteam"},
+    {model: "Увлажнители с погружными электродами CH* compactSteam", id: "v-pills-compactSteam-tab", data: "#v-pills-compactSteam"},
+    {model: "Увлажнители с электронагревателями UR*4 heaterSteam", id: "v-pills-heaterSteam-tab", data: "#v-pills-heaterSteam"},
+    {model: "Газовые влажнители UG* gaSteam", id: "v-pills-gaSteam-tab", data: "#v-pills-gaSteam"}]
+-
+    var humi_list_contentVar = {title: "Увлажнители с погружными электродами UE* humiSteam", model: "humiSteam", caption: "Увлажнители с погружными электродами",
+    description: "humiSteam - это универсальные увлажнители, пригодные для решения широкого круга задач по увлажнению воздуха от обычных жилых домов до производственных помещений и даже саун. Общая производительность серии от 1,5 до 130 кг/ч.",
+    logo: "UE", choice: "Выберите модель:"}
+-
+    var humi_list_content_buttonVar = [{model: "UE", type: "Basic", id: "pills-UE-Basic-tab", data: "#pills-UE-Basic"},
+    {model: "UE", type: "X-plus", id: "pills-UE-X-plus-tab", data: "#pills-UE-X-plus"},
+    {model: "UE", type: "Welness", id: "pills-UE-Wellness-tab ", data: "#pills-UE-Wellness"}]
+-
+    var humi_catalogVar = [{code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"}]
+-
+    var humi_mini_catalogVar = [{code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"},
+    {code: "UE001YD001", name: "Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", price: "63 718 руб.", euro: "904 €", details: "Подробнее"}]
+-
+    var modal_characteristic_listVar = [{argument: "Бренд", value: "Carel"}, {argument: "Номинальная производительность", value: "1,5 кг/ч"}, {argument: "Макс. потребляемая мощность", value: "1,12 кВт"},
+    {argument: "Параметры электропитания", value: "1~, 220В"}, {argument: "Присоединение линии пара", value: "Ø 22/30 мм"}, {argument: "Количество цилиндров", value: "1"},
+    {argument: "Размеры оборудования (ВхШхГ)", value: "712х365х275 мм"}, {argument: "Размеры упаковки (ВхШхГ)", value: "850х500х400 мм"}, {argument: "Вес НЕТТО", value: "13,5 кг"},
+    {argument: "Вес БРУТТО", value: "16 кг"}]
+-
+    var formVar = {buttontext: "Отправить заявку", remark: "Ваши контактные данные в безопасности и не будут переданы 3-им лицам"}
+-
+    var modal_dialog_descriptionVar = [{description: "В основе работы увлажнителей с погружными электродами лежит простой физический закон. Обычная питьевая вода содержит некоторое количество растворенных минеральных солей, а значит, имеет определенную электропроводность. Если подать напряжение на погруженные в воду электроды, получится электрический ток, который нагревает воду до кипения (эффект Джоуля), и в процессе кипения выделяется пар."},
+    {description: "humiSteam - это универсальные увлажнители, пригодные для решения широкого круга задач по увлажнению воздуха от обычных жилых домов до производственных помещений и даже саун. Воздух может увлажняться непосредственно в помещении при помощи вентиляторного парораспределителя или в системе воздуховодов при помощи высокоэффективных линейных парораспределителей. Увлажнители humiSteam работают на водопроводной воде."},
+    {description: "Есть следующие разновидности «электродных» увлажнителей HumiSteam:"},
+    {description: "– Basic, самый простой вариант для решения любых задач по увлажнению воздуха паром. В основном используется в связке с другим увлажнителем HumiSteam типа X-Plus по принципу Ведущий/Ведомый;"},
+    {description: "– X-Plus, мощный увлажнитель с погружными электродами. Комплектуется встроенным контроллером типа «X» серии pCO, жидкокристаллическим дисплеем и кнопками для управления и настройки параметров;"},
+    {description: "– Wellness, специальный вариант парового увлажнения воздуха для саун. Имея принцип работы, как у модели «Xplus», увлажнитель humiSteam Wellness поддерживает встроенные функции управления специально для саун."}]
+-
+    var modal_dialogVar = {close: "закрыть", guide: "CAREL | Руководство по эксплуатации | Увлажнители воздуха humiSteam Basic | RU", pdf1: "(PDF, 5.66 МБ)", certificate: "CAREL | Сертификат соответствия | Увлажнители воздуха humiSteam UE | 17.09.2020", pdf2: "(PDF, 795.55 КБ)",
+    model: "UE001YD001 Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч", description: "Описание", model_description: "UE001YD001 Паровой увлажнитель CAREL humiSteam Basic 1,5 кг/ч, 1x230В, неразборный цилиндр", description_eng: "Description ", model_description_eng: "humiSteam Basic 1.5 kg/h, 230 V single phase, ON/OFF or proportional, disposable cylinder",
+    article: "Арт. UE001YD001", order: "Под заказ", guarantee: "Гарантия 24 месяца", rubles: "66 021 руб.", euro: "(€ 904 )", one: "1", order_button: "Заказать", description_series: "Описание серии"}
+
+
+mixin list
+    ul(class= "man_list")
+        for each in listVar 
+            li(class= "man_list-item")
+                img(src="/assets/list_man-photo.svg")
+                span= each.text
+
+mixin humi_button
+    ul(class="nav nav-pills d-flex justify-content-between humidifiers_button-block", id="pills-tab", style="margin-top:80px;")
+       - for(let i=0; i<humi_buttonVar.length; i++)
+            if(i===0)
+                li(class="nav-item")
+                    button(class="nav-link active humidifiers_button", data-bs-toggle="pill", data-bs-target=humi_buttonVar[i].data, id=humi_buttonVar[i].id)
+                        span.humidifiers_button-span=humi_buttonVar[i].text
+            else 
+                 li(class="nav-item")
+                    button(class="nav-link humidifiers_button",data-bs-toggle="pill", data-bs-target=humi_buttonVar[i].data, id=humi_buttonVar[i].id)
+                        span.humidifiers_button-span=humi_buttonVar[i].text
+
+        
+
+mixin humi_list_block
+    div(class="nav flex-column nav-pills humidifiers_list me-3" id="v-pills-tab")
+       - for(let i=0; i<humi_list_blockVar.length; i++)           
+            if(i===0)
+                a(class="nav-link active humidifiers_list-item", data-bs-toggle="pill", data-bs-target=humi_list_blockVar[i].data, id=humi_list_blockVar[i].id)  
+                    p=humi_list_blockVar[i].model
+                .humidifiers_list-line
+            else
+                a(class="nav-link humidifiers_list-item", data-bs-toggle="pill", data-bs-target=humi_list_blockVar[i].data, id=humi_list_blockVar[i].id)  
+                    p=humi_list_blockVar[i].model
+                .humidifiers_list-line
+
+
+mixin humi_list_content
+    .d-flex
+        .d-flex.flex-column
+            .col-12
+                h4.humidifiers_list_content-title.d-md-block.d-none=humi_list_contentVar.title
+            .col-5       
+                h6.humidifiers_list_content_description-title.d-md-block.d-none=humi_list_contentVar.model
+                span.humidifiers_list_content_description-span.d-md-inline.d-none=humi_list_contentVar.caption
+        h1.humidifiers_list_content-logo.d-md-block.d-none=humi_list_contentVar.logo
+    p.humidifiers_list_content_description-subtitle.col-10.d-md-block.d-none=humi_list_contentVar.description
+    h6.humidifiers_list_content_model-title=humi_list_contentVar.choice
+
+
+mixin humi_list_content_button
+    ul(class="nav nav-pills d-flex justify-content-between humidifiers_button_content-block", id="pills-tab")
+       - for(let i=0; i<humi_list_content_buttonVar.length; i++)
+            if(i===0)
+                li(class="nav-item")
+                    button(class="nav-link active humidifiers_list_content-button", data-bs-toggle="pill", data-bs-target=humi_list_content_buttonVar[i].data, id=humi_list_content_buttonVar[i].id)
+                        span.humidifiers_list_content-button-span_first=humi_list_content_buttonVar[i].model
+                        span.humidifiers_list_content-button-span_second=humi_list_content_buttonVar[i].type
+            else 
+                 li(class="nav-item")
+                    button(class="nav-link humidifiers_list_content-button",data-bs-toggle="pill", data-bs-target=humi_list_content_buttonVar[i].data, id=humi_list_content_buttonVar[i].id)
+                        span.humidifiers_list_content-button-span_first=humi_list_content_buttonVar[i].model
+                        span.humidifiers_list_content-button-span_second=humi_list_content_buttonVar[i].type
+
+
+mixin humi_catalog
+    - for(let i=0; i<humi_catalogVar.length; i++)   
+        .d-flex.flex-column.humidifiers_catalog
+            img.humidifiers_catalog-photo(src="/assets/catalog_photo.png")
+            .humidfiers_catalog_content(style="padding-left: 20px; margin-top:13px;")
+                h6.humidifiers_catalog_content-title=humi_catalogVar[i].code
+                p.humidifiers_catalog_content-subtitle=humi_catalogVar[i].name
+                .d-flex.justify-content-between
+                    .d-flex.flex-column
+                        h6.humidifiers_catalog_content_price-title=humi_catalogVar[i].price
+                        span.humidifiers_catalog_content_price-span=humi_catalogVar[i].euro  
+                    button(class="humidifiers_catalog_content-button btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal")
+                        span=humi_catalogVar[i].details
+
+
+mixin humi_mini_catalog
+    - for(let i=0; i<humi_mini_catalogVar.length; i++)   
+        .d-flex.flex-column.humidifiers_catalog
+            img.humidifiers_catalog-photo(src="/assets/catalog_photo.png")
+            .humidfiers_catalog_content(style="padding-left: 20px; margin-top:13px;")
+                h6.humidifiers_catalog_content-title=humi_mini_catalogVar[i].code
+                p.humidifiers_catalog_content-subtitle=humi_mini_catalogVar[i].name
+                .d-flex.justify-content-between
+                    .d-flex.flex-column
+                        h6.humidifiers_catalog_content_price-title=humi_mini_catalogVar[i].price
+                        span.humidifiers_catalog_content_price-span=humi_mini_catalogVar[i].euro  
+                    button(class="humidifiers_catalog_content-button btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal")
+                        span=humi_mini_catalogVar[i].details
+
+
+mixin modal_characteristic_list
+    p.position-relative(class="btn btn-primary collapsed btn-collapse col-3 modal-dialog_characteristic" data-bs-toggle="collapse" href="#collapseCharacteristic" aria-expanded="false") Характеристики
+        div(class="collapse" id="collapseCharacteristic")
+            .card.card-body.col-8 
+                ul.modal-dialog_characteristic_list
+                    .d-flex.justify-content-between 
+                        .d-flex.flex-column
+                           - for(let i=0; i<modal_characteristic_listVar.length; i++)
+                                li 
+                                    span.modal-dialog_characteristic_list-item=modal_characteristic_listVar[i].argument
+                        .d-flex.flex-column
+                            - for(let i=0; i<modal_characteristic_listVar.length; i++)
+                                li 
+                                    span.modal-dialog_characteristic_list-item=modal_characteristic_listVar[i].value
+
+mixin form
+    form(action="#" style="margin-top:50px;")
+        .form.d-flex.justify-content-between
+            img(src="/assets/user.svg")
+            input.form-item(placeholder="Ваше имя" name="username" type="text")
+            img(src="/assets/check_form.svg")
+        .form.d-flex.justify-content-between
+            img(src="/assets/phone-call.svg")
+            input.form-item(placeholder="Ваш телефон" name="userphone" type="Tel")
+            img(src="/assets/ellipse_form.svg") 
+        button.form-button(type="submit")
+            span.form-button-span=formVar.buttontext
+        p.form-subtitle.col-xl-10.col-lg-7=formVar.remark
+
+mixin carousel 
+    - for(let i=0; i<12; i++)
+        div
+            a(href="/assets/milk.png" data-lightbox="milk-group")
+                img(src="/assets/milk.png") 
+
+mixin modal_dialog_description
+    - for(let i=0; i<modal_dialog_descriptionVar.length; i++)
+         p.modal-dialog_description-subtitle=modal_dialog_descriptionVar[i].description
+
+mixin modal_dialog
+    .modal-dialog.modal-admin
+        .modal-content
+            .container
+                .col-14
+                    .modal-body
+                        button(class="btn-close modal-dialog_close-button d-flex" data-bs-dismiss="modal" aria-label="Close") 
+                            span=modal_dialogVar.close
+                        .d-flex 
+                            .d-flex.flex-column
+                                img.modal-dialog-photo.d-md-inline-block.d-none(src="/assets/modal_photo.png")
+                                img.modal-dialog-photo_loupe.d-md-inline-block.d-none(src="/assets/modal_loupe.svg")
+                                p.position-relative(class="btn btn-primary collapsed btn-collapse col-5 modal-dialog_documentation" data-bs-toggle="collapse" href="#collapseDocumentation" aria-expanded="false") Документация
+                                    div(class="collapse" id="collapseDocumentation")
+                                        .card.card-body.col-8
+                                            ul.modal-dialog_documentation_list
+                                                li
+                                                    a(href="#").modal-dialog_documentation_list-link=modal_dialogVar.guide
+                                                    p.modal-dialog_documentation_list-subtitle=modal_dialogVar.pdf1
+                                                li
+                                                    a(href="#").modal-dialog_documentation_list-link=modal_dialogVar.certificate
+                                                    p.modal-dialog_documentation_list-subtitle=modal_dialogVar.pdf2
+                            .d-flex.flex-column.modal-dialog_model_block
+                                .col-sm-12.col-9
+                                    h2.modal-dialog_model_block-title=modal_dialogVar.model
+                                h6.modal-dialog_model_block_description-title=modal_dialogVar.description
+                                p.modal-dialog_model_block_description-subtitle.col-sm-12.col-9=modal_dialogVar.model_description
+                                h6.modal-dialog_model_block_description-title=modal_dialogVar.description_eng
+                                p.modal-dialog_model_block_description-subtitle.col-sm-12.col-9=modal_dialogVar.model_description_eng
+                                .d-flex.modal-dialog_price_block.justify-content-between 
+                                    h5.modal-dialog_price_block-title=modal_dialogVar.article
+                                    .d-flex.justify-content-between
+                                        span.modal-dialog_price_block-span.col-md-5=modal_dialogVar.order
+                                        p.modal-dialog_price_block-subtitle.col-md-7=modal_dialogVar.guarantee
+                                .col-xl-10.col-lg-12
+                                    .d-flex.justify-content-sm-end.justify-content-center
+                                            h5.modal-dialog_price_block-rubles=modal_dialogVar.rubles
+                                            span.modal-dialog_price_block-euro=modal_dialogVar.euro
+                                .d-flex.modal-order
+                                    button.modal-dialog_price_block-number
+                                        img.modal-dialog_price_block-number-minus(src="/assets/modal_minus.svg")
+                                        .modal-dialog_price_block-number-background
+                                            span.modal-dialog_price_block-number-one=modal_dialogVar.one
+                                        img.modal-dialog_price_block-number-plus(src="/assets/modal_plus.svg")
+                                    button.modal-dialog_price_block-order
+                                        span=modal_dialogVar.order_button
+                                +modal_characteristic_list
+                        p.position-relative(class="btn btn-primary collapsed btn-collapse modal-dialog_description" data-bs-toggle="collapse" href="#collapseDescription" aria-expanded="false")=modal_dialogVar.description_series
+                            div(class="collapse" id="collapseDescription")
+                                .card.card-body
+                                    +modal_dialog_description
+

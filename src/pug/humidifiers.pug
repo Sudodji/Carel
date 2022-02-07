@@ -1,0 +1,72 @@
+include ./mixin.pug
+.position-relative
+    .container
+        .row.humidifiers
+            .col-xl-7.col-lg-8.col-md-11.col-sm-12 
+                h1.humidifiers_title Каталог увлажнителей
+        +humi_button       
+        .d-flex(class="tab-content", id="pills-tabContent")
+            .position-relative(class="tab-pane fade show active humidifiers_list_block" id="pills-isothermal")
+                +humi_list_block
+            .position-relative(class="tab-pane fade humidifiers_list_block" id="pills-adiabatic")
+                +humi_list_block
+            .position-relative(class="tab-pane fade humidifiers_list_block" id="pills-evaporative")
+                +humi_list_block  
+            
+            .position-relative(class="tab-content col-sm-8 col-12 humidifiers_list_content", id="v-pills-tabContent")
+                div(class="tab-pane fade show active" id="v-pills-humiSteam" role="tabpanel" aria-labelledby="v-pills-humiSteam-tab")
+                    +humi_list_content
+                    +humi_list_content_button
+                    .d-flex(class="tab-content", id="pills-tabUEContent")
+                        div(class="tab-pane fade show active humidifiers_list_content-button_block" id="pills-UE-Basic")
+                            .col-lg-12.col-sm-10
+                                p.humidifiers_list_content_description-subtitle «Basic» (UE*Y) Самый простой вариант для решения любых задач по увлажнению воздуха паром. Представлен моделями производительностью от 1 до 65 кг/ч, комплектуется стандартным электронным контроллером (Y) и дисплеем.
+                            .flex-wrap.justify-content-around.d-sm-flex.d-none
+                                +humi_catalog
+                            .flex-wrap.justify-content-around.d-flex.d-sm-none
+                                +humi_mini_catalog
+                        div(class="tab-pane fade humidifiers_list_content-button_block" id="pills-UE-X-plus")
+                            .col-12.col-sm-10
+                                p.humidifiers_list_content_description-subtitle «Basic» (UE*Y) Самый простой вариант для решения любых задач по увлажнению воздуха паром. Представлен моделями производительностью от 1 до 65 кг/ч, комплектуется стандартным электронным контроллером (Y) и дисплеем.
+                            .flex-wrap.justify-content-around.d-sm-flex.d-none
+                                +humi_catalog
+                            .flex-wrap.justify-content-around.d-flex.d-sm-none
+                                +humi_mini_catalog
+                        div(class="tab-pane fade humidifiers_list_content-button_block" id="pills-UE-Wellness")
+                            .col-12.col-sm-10
+                                p.humidifiers_list_content_description-subtitle «Basic» (UE*Y) Самый простой вариант для решения любых задач по увлажнению воздуха паром. Представлен моделями производительностью от 1 до 65 кг/ч, комплектуется стандартным электронным контроллером (Y) и дисплеем.
+                            .flex-wrap.justify-content-around.d-sm-flex.d-none
+                                +humi_catalog
+                            .flex-wrap.justify-content-around.d-flex.d-sm-none
+                                +humi_mini_catalog
+                div(class="tab-pane fade" id="v-pills-thermoSteam" role="tabpanel" aria-labelledby="v-pills-thermoSteam-tab")
+                    +humi_list_content
+                    .flex-wrap.justify-content-around.d-sm-flex.d-none
+                        +humi_catalog
+                    .flex-wrap.justify-content-around.d-flex.d-sm-none
+                        +humi_mini_catalog
+                        
+                div(class="tab-pane fade" id="v-pills-compactSteam" role="tabpanel" aria-labelledby="v-pills-compactSteam-tab")
+                    +humi_list_content
+                    .flex-wrap.justify-content-around.d-sm-flex.d-none
+                        +humi_catalog
+                    .flex-wrap.justify-content-around.d-flex.d-sm-none
+                        +humi_mini_catalog
+                    
+                div(class="tab-pane fade" id="v-pills-heaterSteam" role="tabpanel" aria-labelledby="v-pills-heaterSteam-tab")
+                    +humi_list_content
+                    .flex-wrap.justify-content-around.d-sm-flex.d-none
+                        +humi_catalog
+                    .flex-wrap.justify-content-around.d-flex.d-sm-none
+                        +humi_mini_catalog
+                    
+                div(class="tab-pane fade" id="v-pills-gaSteam" role="tabpanel" aria-labelledby="v-pills-gaSteam-tab")
+                    +humi_list_content
+                    .flex-wrap.justify-content-around.d-sm-flex.d-none
+                        +humi_catalog
+                    .flex-wrap.justify-content-around.d-flex.d-sm-none
+                        +humi_mini_catalog
+    div(class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true")
+        +modal_dialog
+    .humidifiers_background.d-sm-block.d-none
+    .humidifiers_triangle-right

@@ -1,0 +1,40 @@
+@import "general.scss";
+
+.repair{
+    margin-top: 403px;
+    text-align: center;
+    &_pluses{ 
+        margin-top: 132px!important;
+        &_block-second{padding-top: 70px!important;}
+        &_block-third{padding-top: 160px!important;}
+    }
+    &_title{
+        color: $color-1;
+        @include fontz(42px, 67px, 900);
+    }
+    &_subtitle{
+        color:$color-2;
+        @include fontz(24px, 34px, bold);
+        margin-left: 15px;
+    }
+    &_big-line{
+        background-color: $color-4;
+        position: absolute;
+        z-index: -1;
+        width: 118%;
+        height: 167px;
+        bottom: -1px;
+        left: -51px;
+        transform: rotate(11deg);
+    }
+    &_triangle-left{
+        position: absolute;
+        border-top: 1050px solid #e0e0e0;
+        border-right: 337px solid transparent;
+        z-index: -2;
+        transform: rotate(264deg);
+        right: 600px;
+        top: 116px;
+        border-left: 2108px solid transparent;
+    }
+}

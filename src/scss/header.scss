@@ -1,0 +1,87 @@
+@import "general.scss";
+
+.drops_photo{
+	position: absolute;
+	height: 135%;
+	width: 55%;
+	right: 0;
+	z-index: -1;
+}
+
+.info{
+	padding-top: 33px;
+	.telephone{
+		@include fontz(20px,30px,800);
+		margin-bottom: 0;
+	}
+	.back-call{
+		@include fontz(16px,18px,normal);
+		text-decoration: none;
+		color: #2e2e2e;
+		&:hover{text-decoration: underline;}
+	}	
+}	
+.header{
+	text-align: end;
+	padding-top: 40px;
+	&_logo-photo{
+		width: 227px;
+		height: 80px;
+	}
+	&_title{
+		@include fontz(36px,70px,700);
+		color:$color-1;
+	}
+	&_list{
+		list-style: none;
+		&-item{
+		@include fontz(56px,55px,800);
+		margin-bottom: 40px;
+			&:last-child{margin-bottom: 52px;}
+			&:first-child{margin-top: 15px;}
+			img:first-of-type{padding-left:45px;}
+			img:last-of-type{padding-left: 10px;}
+		}
+		span{color: $color-2;}
+	}
+	&_button{
+		width: 357px;
+		height: 74px;
+		background: $color-1;
+		color: $color-3;
+		font-size: 22px;
+		transform: skew(-25deg);
+		border-radius: 4px;
+		border: none;
+		&-span{
+		position: absolute;
+    	left: calc(30%);
+    	top: calc(30%);
+    	transform: skew(25deg);
+		font-weight: 700;
+		}
+	}
+	&_photo{
+		position: absolute;
+		left: 290px;
+		top: 200px;
+		z-index: -2;
+	}
+	&_big-line{
+		background-color: $color-1;
+	    position: absolute;
+	    width: 108%; 
+	    height: 60px;
+		left: -30px;
+        transform: rotate(11deg);
+		margin-top: 70px;
+	}
+	&_triangle-topleft {
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-top: 673px solid $color-1; 
+		border-right: 296px solid transparent;		
+	}
+	
+}	

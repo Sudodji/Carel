@@ -1,0 +1,1578 @@
+@import "/node_modules/bootstrap/scss/bootstrap-grid.scss";
+@media (min-width: 1615px) and (max-width: 1910px){
+    .header{
+        &_triangle-topleft{
+            border-top: 613px solid $color-1; 
+            border-right: 236px solid transparent;
+        }
+        &_big-line{
+            transform: rotate(10deg);
+            margin-top: 65px;
+        }
+        &_photo{
+            left: 171px;
+        }
+    }
+    .man{
+        &_big_red-block{bottom: -192px;}
+        &_triangle-right{
+            left: 598px;
+            top: 379px;
+        }
+    }
+    .repair_triangle-left{
+        top: 104px;
+        right: 500px;
+    }
+    .humidifiers{
+        &_background{width: 592px;}
+        &_triangle-right{
+            transform: rotate(101deg);
+            bottom: 184px;
+        }
+    }
+    .woman_big_red-block{top: -39px;}
+}
+@media (min-width: 1400px) and (max-width: 1615px){
+    .header{
+        &_triangle-topleft{
+            border-top: 465px solid $color-1; 
+            border-right: 127px solid transparent;
+        }
+        &_big-line{
+            transform: rotate(10deg);
+            margin-top: 50px;
+        }
+        &_photo{
+            left: 65px;
+        }
+    }
+    .man{
+        &_photo{
+            width: 120%;
+            top: 53px;
+        }
+        &_form{margin-top:230px;}
+        &_big_red-block{bottom: -201px;}
+        &_triangle-right{
+            left: 524px;
+            top: 341px;
+        }
+    }
+    .repair_triangle-left{right: 307px;}
+    .humidifiers_background{width: 500px;}
+    .reviews_block_big-line{bottom: -260px;}
+    .info{margin-top: 94px;}
+    .woman_big_red-block{top: -56px;}
+}
+@include media-breakpoint-down(xxl){
+    .header{
+        &_triangle-topleft{
+            border-top: 537px solid #ff0000;
+            border-right: 117px solid transparent;
+        }
+        &_big-line{margin-top: 28px;}
+        &_photo{left:79px;}
+    }
+    .man{
+        &_photo{
+            width: 120%;
+            top: 62px;
+        }
+        &_form{margin-top:208px;}
+        &_triangle-right{
+            left: 515px;
+            top: 338px;
+        }
+        &_big_red-block{bottom: -198px;}
+    }
+    .repair{
+        &_triangle-left{
+            right: 317px;
+            top: 128px;
+        }
+        &_big-line{bottom: 36px;}
+    }
+    .humidifiers_background{
+        width: 492px;
+        height: 3735px;
+    }
+    .info{margin-top: 108px;}
+    .woman_form{margin-top: 345px;}
+    .form-button{width: 400px;}
+}
+@include media-breakpoint-down(xl){
+    .header{
+        &_title{font-size: 28px;}
+        &_list{
+            &-item{font-size:40px;}
+        }
+        &_button{width: 294px;}
+        &_big-line{transform: rotate(10deg);}
+        &_triangle-topleft{
+            border-top: 298px solid #ff0000;
+            border-right: 111px solid transparent;
+        }
+    }
+    .drops_photo{width:57%;}
+    .components_list{
+        margin-top: 155px!important;
+        &_first-number{bottom: 276px;}
+        &_second-number{bottom: 205px;}
+        &_third-number{bottom: 113px;}
+    }
+    .services{
+        &_big-line{bottom: 26px;}
+    }
+    .man{
+        margin-top: 121px;
+        &_list-item{
+            font-size: 18px;
+            line-height: 45px!important;
+        }
+        &_form{margin-top: 168px;}
+        &_big_red-block{
+            height: 666px;
+            bottom: -110px;
+        }
+        &_triangle-right{
+            left: 243px;
+            top: 90px;
+        }
+    }
+    .repair{
+        margin-top: 333px;
+        &_title{font-size: 35px;}
+        &_triangle-left{
+            right: 131px;
+            top: 130px;
+        }
+        &_big-line{bottom: 3px;}
+    }
+    .humidifiers{
+        &_background{
+            width: 410px;
+            height: 3750px;
+        }
+        &_button{width: 295px;}
+        &_list-line{height: 576px;}
+        &_list_content-button{
+            width: 200px;
+            &-span_second{font-size: 21px;}
+        }
+    }
+    .humidifiers_list-item.active, .nav-pills .show > .humidifiers_list-item{
+        &::before{
+            right:288px;
+        }
+    }
+    .modal-dialog{
+        &_price_block-subtitle {margin-right: 31px ;}
+        &_price_block-order{
+            width: 252px;
+            span{left: calc(34%);}
+        }
+    }
+    .reviews_block_big-line{
+        height: 776px;
+        bottom: -147px;
+    }
+    .owl-item{height: 190px;}
+    .woman_form{margin-top: 254px;}
+    .form{
+        width: 419px;
+        &-button{width: 374px;}
+        &-item{width: 337px;}
+    }
+    .info{margin-top: 18px;}
+}
+@include media-breakpoint-down(lg){
+    .header{
+        &_photo{
+            width: 80%;
+            left: 43px;
+        }
+        &_big-line{margin-top: 12px;}
+    }
+    .drops_photo{width: 71%;}
+    .components_list{
+        margin-top: 95px!important;
+        &_first-number{bottom: 270px;}
+        &_second-number{bottom: 205px;}
+        &_third-number{bottom: 109px;}
+    }
+    .services_big-line{
+        bottom: 37px;
+    }
+    .man{
+        margin-top: 185px;
+        &_text{margin-top: 50px!important;}
+        &_photo{top: 178px;}
+        &_list-item{line-height: 34px!important;}
+        &_triangle-right{
+            left: 41px;
+            top: 64px;
+        }
+    }
+    .repair{
+        &_triangle-left{
+            right: -67px;
+            top: 152px;
+        }
+        &_big-line{bottom: 40px;}
+    }
+    .humidifiers{
+        &_button{width: 226px;}
+        &_list-line{height: 656px;}
+        &_background{
+            width: 385px;
+            height: 6450px;
+            top: -255px;
+        }
+        &_list_content-button{
+            width: 152px;
+            &-span_first{left: calc(-4%);}
+            &-span_second{font-size: 16px;}
+        }
+    }
+    .humidifiers_list-item.active, .nav-pills .show > .humidifiers_list-item{
+        &::before{
+            right:248px;
+        }
+    }
+    .modal-dialog{
+        &-photo{
+            margin-top: 225px;
+            width: 230px;
+        }
+        &_documentation{margin:255px 0 0 10px;}
+        &-photo_loupe{
+            top: 314px;
+            left: 95px;
+        }
+        &_price_block-order{width: 219px;}
+        &_model_block-title{font-size: 26px;}
+    }
+    .reviews_block_big-line{
+        width: 134%;
+        bottom: -89px;
+    }
+    .owl-item{height: 140px;}
+    .woman_form{margin-top: 165px;}
+}
+@include media-breakpoint-down(md){
+    .drops_photo{width: 89%;}
+    .header{
+        &_photo{
+            top: 241px;
+            left: -9px;
+        }
+        &_button{
+            width: 194px;
+            &-span{left: calc(17%);}
+        }
+        &_big-line{
+            margin-top: -6px;
+            height: 43px;
+        }
+        &_logo-photo{width: 185px;}
+        &_triangle-topleft{
+            border-top: 209px solid #ff0000;
+            border-right: 89px solid transparent;
+        }
+    }
+    .services_triangle-right{top: -191px;}
+    .services-center{margin-top: 124px;}
+    .important_components{
+        margin-top: 143px;
+        &_title{line-height: 50px;}
+    }
+    .components_list{
+        margin-top: 158px!important;
+        flex-direction: column;
+        align-items: center;
+        &_second-item{text-align: center;}
+        &_third-item{
+            text-align: center;
+            padding-top: 53px;
+        }
+        span{left: 350px;}
+        &_first-number{bottom: 310px;}
+        &_second-number{bottom: 181px;}
+        &_third-number{bottom: 23px;}
+    }
+    .services_big-line{
+        height: 553px;
+        width: 163%;
+        left: -83px;
+        bottom: -97px;
+    }
+    .man{
+        margin-top: 78px;
+        &_text{margin-top: 160px!important;}
+        &_list-item{line-height: 48px!important;}
+        &_form{padding-left: 20px;}
+        &_triangle-right{
+            left: -84px;
+            top: 57px;
+        }
+    }
+    .repair{
+        &_triangle-left{
+            right: -246px;
+            top: 169px;
+        }
+        &_pluses{
+            flex-direction: column;
+            align-items: center;
+            &_block-third{
+                padding-top: 81px!important;
+            }
+        }
+        &_big-line{
+            bottom: -56px;
+            height: 406px;
+        }
+    }
+    .humidifiers{
+        &_title{font-size: 43px;}
+        &_button{
+            width: 317px;
+            margin: 20px;
+            &-block{
+                flex-direction: column;
+                align-items: center;
+            }
+            &_content-block{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        &_list_content{
+            margin-top: 71px;
+            &_description-subtitle{display: none;}
+            &-button{
+                width: 192px;
+                margin: 10px;
+            }
+        }
+    }
+    .modal{
+        &-dialog_documentation{display: none!important;}
+        &-dialog_characteristic{display: none!important;}
+    }
+    .reviews_block{
+        &-title{
+            font-size: 43px;
+            line-height: 60px;
+        }
+        &-subtitle{
+            font-size: 18px;
+            line-height: 29px;
+        }
+    }
+    .owl-item{height: 100px;}
+    .woman_form{margin-top: 149px;}
+}
+@include media-breakpoint-down(sm){
+    .header{
+        &_logo-photo{
+            width: 172px;
+            height: 46px;
+        }
+        &_button{
+            width: 140px;
+            margin-right: 30px;
+            &-span{
+                left: calc(11%);
+                top: calc(13%);
+            }
+        }
+        &_big-line{display: none;}
+        &_list-item:last-child{margin-top: 24px;}
+        &_list-item:first-child{justify-content: end;}
+        &_list-photo:first-child{padding-left: 0!important;}
+    }
+    .drops_photo{width: 129%;}
+    .services-center{margin-top: 164px;}
+    .components_list{
+        text-align: center;
+        span{left: 250px;}
+    }
+    .form-button{
+        width: 285px;
+        &-span{left: calc(20%);}
+    }
+    .man{
+        &_big_red-block{
+            bottom:-120px;
+            width: 142%;
+            left: -71px;
+        }
+    }
+    #pills-tabContent{flex-direction: column;}
+    .humidifiers{
+        &_title{text-align: center;}
+        &_list_block{margin-left: 20px}
+        &_list-line{height: 454px;}
+        &_list-item.active::before{right: 507px;}
+        &_button_content-block{margin:28px 0 20px 0;}
+        &_list_content{
+            &_model-title{text-align: center;}
+            &-button{
+                width: 311px;
+                &-span_first{
+                    left:calc(11%);
+                }
+                &-span_second{font-size: 26px;}
+            }
+        }
+    }
+    .modal-dialog_close-button{right: 4px;}
+    .modal-order{justify-content: space-around!important;}
+    .reviews_block{
+        margin-top: 146px;
+        &_big-line{height: 690px;}
+    }
+    .woman_form{
+        margin-top: 134px;
+        &-title{font-size: 27px;}
+        .form-button{margin-left: 30px!important;}
+    }
+}
+@media (max-width:415px){
+    .header{
+        &_title{font-size: 22px;}
+        &_list{
+            margin-bottom: 0;
+            &-item{
+                font-size: 29px;
+                line-height: 43px;
+            }
+        }
+        &_list-photo:first-child{padding-left: 89px!important;}
+        &_button{
+            height: 38px;
+            &-span{font-size: 17px;}
+        }
+    }
+    .drops_photo{width: 137%;}
+    .services-center{
+        margin-top: 129px;
+        &_title{
+            font-size: 40px;
+            line-height: 42px;
+        }
+        &_subtitle{
+            font-size: 18px;
+            line-height: 36px;
+        }
+    }
+    .services_triangle-right{
+        top: -116px;
+        border-bottom: 246px solid transparent;
+    }
+    .important_components{
+        &_title{
+            line-height: 42px;
+            font-size: 36px;
+        }
+        &_subtitle{
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 27px;
+        }
+    }
+    .components_list{
+        p{
+            font-size: 26px;
+            line-height: 35px;
+        }
+        span{left: 160px;}
+        &_first-number{bottom:315px;}
+        &_second-number{bottom:195px;}
+        &_third-number{bottom:20px;}
+    }
+    .man{
+        margin-top: 44px;
+        &_list{padding-left: 0;}
+        &_form-title{
+            font-size: 21px;
+            line-height: 31px;
+        }
+    }
+    .form{
+        width: 280px;
+        &-item{width: 217px;}
+        &-button{
+            width: 168px;
+            &-span{
+                line-height: 25px;
+                left: calc(4%);
+                top: calc(4%);
+            }
+        }
+    }
+    .repair{
+        margin-top: 247px;
+        &_title{
+            font-size: 25px;
+            line-height: 51px;
+        }
+        &_big-line{
+            bottom:-10px;
+            height: 428px;
+            width: 178%;
+            left: -54px;
+        }
+    }
+    .humidifiers{
+        &_button{width: 295px;}
+        &_list-item.active::before{right: 307px;}
+        &_list-line{height: 548px;}
+        &_list_content-button{width: 270px;}
+    }
+    .modal-dialog{
+        &_model_block-title{
+            font-size: 22px;
+            line-height: 34px;
+        }
+        &_price_block{
+            &-subtitle{margin-left: 5px;}
+            &-title{font-size: 18px;}
+            &-rubles{font-size: 22px;}
+            &-number{
+                width: 140px;
+                &-background{
+                    width: 54px;
+                    right: 28%;
+                }
+            }
+            &-order{
+                width: 132px;
+                span{left: calc(20%);}
+            }
+        }
+    }
+    .reviews{
+        &_block-title{
+            font-size: 36px;
+            line-height: 45px;
+        }
+        &_block_big-line{
+            height: 737px;
+            width: 152%;
+            z-index: -4;
+        }
+    }
+    .owl-item{height: 143px;}
+    .woman{
+        &_form{
+            margin-top: 113px;
+            &-title{
+                font-size: 21px;
+                line-height: 31px;
+            }
+        }
+        &_big_red-block{
+            z-index: -3;
+            height: 1359px;
+            top: -31px;
+        }
+    }   
+}
+@media (min-width: 360px) and (max-width: 361px){
+    .humidifiers_list-item.active::before{right: 292px;}
+    .humidifiers_list-line{height: 575px;}
+}
+@media (min-width: 768px) and (max-width: 821px){
+    .header{
+        &_triangle-topleft{
+            border-top: 208px solid #ff0000;
+            border-right: 60px solid transparent;
+        }
+        &_logo-photo{width:184px;}
+        &_big-line{
+            margin-top: -2px;
+            height: 50px;
+        }
+    }
+    .drops_photo{width: 74%;}
+    .man{
+        margin-top: 135px;
+        &_list-item{line-height: 32px!important;}
+        &_big_red-block{bottom:-94px;}
+        &_triangle-right{
+            left: -31px;
+            top: -10px;
+        }
+    }
+    .repair{
+        &_triangle-left{
+            top: 141px;
+            right: -165px;
+        }
+    }
+    .humidifiers_background{width: 302px;}
+    .modal-dialog_close-button{right: -21px;}
+    .reviews_block_big-line{
+        width:134%;
+        bottom:-102px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 769px){
+    .header{
+        &_logo-photo{margin-left: 30px;}
+        &_big-line{
+            margin-top: -5px;
+            transform: rotate(9deg);
+        }
+    }
+    .drops_photo{width:76%;}
+    .man{
+        &_photo{width: 128%;}
+        &_list-item{line-height: 31px!important;}
+        &_big_red-block{bottom:-91px;}
+        &_triangle-right{
+            left: -72px;
+            top: -22px;
+        }
+    }
+    .repair_triangle-left{right: -189px;}
+    .humidifiers{
+        &_list_content-logo{margin-right: 40px!important;}
+        &_button_content-block{
+            flex-direction: column;
+            align-items: center;
+        }
+        &_list_content-button{
+            width: 236px;
+            margin: 10px;
+        }
+    }
+    .modal-dialog{
+        &_price_block-subtitle{margin-left: -4px;}
+        &_price_block-order{
+            width:179px;
+            span{left: calc(28%);}
+        }
+        &_close-button{right: 3px;}
+    }
+    .modal-order{justify-content: space-around!important;}
+}
+@media (min-width: 911px) and (max-width: 913px){
+    .header_big-line{margin-top: 6px;}
+    .man{
+        margin-top: 155px;
+        &_triangle-right{top: 44px;}
+    }
+    .repair_triangle-left{top: 146px;}
+    .humidifiers_background{width: 342px;}
+    .woman_form{margin-top: 160px;}
+}
+@media (min-width: 540px) and (max-width: 542px){
+    .header_list-photo{margin-left: 90px;}
+    .repair_big-line{bottom:-6px;}
+    .humidifiers_list-item.active::before {
+        right: 472px;
+    }
+}
+@media (min-width: 1px) and (max-width: 281px){
+    .info{
+        .telephone{font-size: 11px;}
+        .back-call{font-size: 12px;}
+    }
+    .header{
+        &_logo-photo{
+            width:112px;
+            margin-left: 20px;
+        }
+        &_photo{display: none;}
+        &_list-item{
+            font-size: 25px;
+            line-height: 40px;
+        }
+        &_title{font-size: 16px;}
+    }
+    .drops_photo{width: 162%;}
+    .services-center{
+        &_title{
+            font-size: 32px;
+            line-height: 38px;
+        }
+        &_subtitle{
+            font-size: 14px;
+            line-height: 30px;
+        }
+    }
+    .important_components{
+        &_title{
+            line-height: 34px;
+            font-size: 28px;
+        }
+        &_subtitle{
+            margin-top: 15px;
+            font-size: 13px;
+            line-height: 27px;
+        }
+    }
+    .components_list{
+        p{font-size: 21px;}
+        span{left: 117px;}
+    }
+    .man{
+        &_subtitle{
+            font-size: 15px;
+            line-height: 35px;
+        }
+        &_list-item{line-height: 39px!important;}
+        &_triangle-right{display: none;}
+    }
+    .form{
+        width:214px;
+        &-item{width: 165px;}
+        &-button{
+            width:136px;
+            height: 53px;
+        }
+    }
+    .man_big_red-block{width:158%;}
+    .repair{
+        &_title{
+            font-size: 21px;
+            line-height: 44px;
+        }
+        &_pluses{
+            align-items: start;
+            margin-left: 20px;
+        }
+        &_big-line{height: 457px;}
+        &_triangle-left{display: none;}
+    }
+    .humidifiers{
+        &_title{
+            font-size: 29px;
+            line-height: 43px;
+        }
+        &_button{width:215px;}
+        &_list-line{height: 664px;}
+        &_list-item.active::before{right: 248px;}
+        &_list_content-button{
+            width:189px;
+            &-span_first{left: calc(2%);}
+            &-span_second{font-size: 18px;}
+        }
+    }
+    .modal-dialog{
+        &_price_block-number{
+            width: 98px;
+            &-background{width: 34px;}
+            &-plus{right: 4%;}
+            &-one{
+                left: 14px;
+                top: 24%;
+            }
+            &-minus{left: 8%;}
+        }
+        &_price_block-title{
+            font-size: 14px;
+            line-height: 25px ;
+        }
+        &_price_block-order{
+            width: 85px;
+            span{
+                font-size: 16px;
+                left: calc(13%);
+                top: calc(30%);
+            }
+        }
+    }
+    .reviews{
+        &_block-title{
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &_block-subtitle{
+            font-size: 13px;
+            line-height: 27px;
+        }
+        &_block_big-line{width: 169%;}
+    }
+    .owl-item{height: 106px;}
+    .info_subtitle{margin-top: 20px;}
+}
+@media (min-width: 1024px) and (max-width: 1281px){
+    .header_triangle-topleft{
+        border-top: 262px solid #ff0000;
+        border-right: 76px solid transparent;
+    }
+    .man{
+        &_list-item{line-height: 52px;}
+        &_photo{top: 80px;}
+        &_triangle-right{
+            left: 305px;
+            top: 262px;
+        }
+    }
+    .repair_triangle-left{
+        right: 217px;
+        top: 138px;
+    }
+    .humidifiers_background{
+        width: 438px;
+        height: 3798px;
+    }
+    .modal-dialog_close-button{right: -20px;}
+    .woman_form{margin-top:335px;}
+}
+@media (min-width:1px) and (max-width:541px){
+    .header_photo{display: none;}
+    .drops_photo{display: none;}
+}
+@media (min-width:1900px) and (max-width: 1919px){
+    .man_triangle-right{top: 367px;}
+    .repair_triangle-left{top: 127px;}
+    .humidifiers_background{width: 733px;}
+}
+@media (min-width:992px) and (max-width: 1919px){
+    .woman_photo{bottom:-87px;}
+}
+@media (min-width:1860px) and (max-width: 1899px){
+    .man{
+        &_big_red-block{bottom:-187px}
+        &_triangle-right{top: 365px;}
+    }
+    .repair_triangle-left{top: 121px;}
+    .humidifiers_background{width: 740px;}
+}
+@media (min-width: 1840px) and (max-width: 1859px){
+    .man{
+        &_big_red-block{bottom:-169px;}
+        &_triangle-right{top: 351px;}
+    }
+    .repair_triangle-left{top: 100px;}
+    .humidifiers_background{width: 721px;}
+}
+@media (min-width: 1820px) and (max-width: 1839px){
+    .man{
+        &_big_red-block{bottom:-159px;}
+        &_triangle-right{top: 343px;}
+    }
+    .repair_triangle-left{top: 89px;}
+    .humidifiers_background{width: 703px;}
+
+}
+@media (min-width: 1780px) and (max-width: 1819px){
+    .man{
+        &_form{margin-top: 242px;}
+        &_triangle-right{top: 336px;}
+    }
+    .repair_triangle-left{top: 118px;}
+    .humidifiers_background{width: 691px;}
+}
+@media (min-width: 1740px) and (max-width: 1779px){
+    .man{
+        margin-top: 136px;
+        &_form{margin-top: 267px;}
+        &_triangle-right{top: 323px;}
+    }
+    .repair_triangle-left{top: 115px;}
+    .humidifiers_background{width: 676px;}
+}
+@media (min-width: 1700px) and (max-width: 1739px){
+    .man{
+        margin-top: 129px;
+        &_form{margin-top: 252px;}
+        &_triangle-right{top: 305px;}
+    }
+    .repair_triangle-left{top: 112px;}
+    .humidifiers_background{width: 639px;}
+}
+@media (min-width: 1660px) and (max-width: 1699px){
+    .man{
+        margin-top: 119px;
+        &_form{margin-top: 247px;}
+        &_triangle-right{top: 294px;}
+    }
+    .repair_triangle-left{top: 110px;}
+    .humidifiers_background{width: 629px;}
+}
+@media (min-width: 1620px) and (max-width: 1659px){
+    .man{
+        margin-top: 108px;
+        &_form{margin-top: 237px;}
+        &_triangle-right{top: 278px;}
+    }
+}
+@media (min-width: 1600px) and (max-width: 1619px){
+    .man{
+        margin-top: 200px;
+        &_triangle-right{top: 362px;}
+    }
+    .repair_triangle-left{top: 150px;}
+    .humidifiers_background{width: 582px;}
+}
+@media (min-width:1401px) and (max-width: 1619px){
+    .form-button{width: 449px;}
+}
+@media (min-width: 1580px) and (max-width: 1599px){
+    .man{
+        margin-top: 205px;
+        &_triangle-right{top: 370px;}
+    }
+    .repair_triangle-left{top: 149px;}
+    .humidifiers_background{width: 580px;}
+}
+@media (min-width:1400px) and (max-width: 1599px){
+    .humidifiers_triangle-right{
+        transform: rotate(101deg);
+        left: 1029px;
+        bottom: 164px;
+    }
+}
+@media (min-width: 1560px) and (max-width: 1579px){
+    .man_triangle-right{top: 347px;}
+    .repair_triangle-left{top: 147px;}
+    .humidifiers{
+        &_background{width: 558px;}
+    }
+}
+@media (min-width: 1520px) and (max-width: 1559px){
+    .man_triangle-right{top: 349px;}
+    .repair_triangle-left{top: 144px;}
+    .humidifiers_background{width: 546px;}
+}
+@media (min-width: 1480px) and (max-width: 1519px){
+    .man_triangle-right{top: 354px;}
+    .repair_triangle-left{top: 143px;}
+    .humidifiers{
+        &_background{width: 529px;}
+        &_triangle-right{bottom: 158px;}
+    }
+}
+@media (min-width: 1460px) and (max-width: 1479px){
+    .man_triangle-right{top: 358px;}
+    .repair_triangle-left{top: 139px;}
+    .humidifiers{
+        &_triangle-right{bottom: 153px;}
+    }
+}
+@media (min-width: 1420px) and (max-width: 1459px){
+    .man{
+        &_form{margin-top: 218px;}
+        &_triangle-right{top: 349px;}
+    }
+    .repair_triangle-left{top: 136px;}
+    .humidifiers{
+        &_triangle-right{bottom: 150px;}
+    }
+}
+@media (min-width: 1400px) and (max-width: 1419px){
+    .man{
+        &_form{margin-top: 197px;}
+        &_triangle-right{top: 331px;}
+    }
+    .repair_triangle-left{top: 133px;}
+    .humidifiers_triangle-right{bottom: 146px;}
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .header_big-line{margin-top: 7px;}
+    .humidifiers_background{height: 3789px;}
+}
+@media (min-width: 1360px) and (max-width: 1399px){
+    .man{
+        &_form{margin-top: 197px;}
+        &_triangle-right{top: 329px;}
+    }
+}
+@media (min-width: 1260px) and (max-width: 1340px){
+    .header_triangle-topleft {
+        border-top: 282px solid #ff0000;
+        border-right: 74px solid transparent;
+    }
+    .man_list-item{line-height: 54px;}
+}
+@media (min-width: 1340px) and (max-width: 1359px){
+    .man{
+        &_form{margin-top: 213px;}
+        &_triangle-right{top: 314px;}
+    }
+    .humidifiers_background{width: 468px;}
+    .woman_form{margin-top: 340px;}
+}
+@media (min-width: 1320px) and (max-width: 1339px){
+    .man{
+        &_form{margin-top: 201px;}
+        &_triangle-right{top: 303px;}
+    }
+    .repair_triangle-left{top: 122px;}
+    .humidifiers_background{width: 455px;}
+    .woman_form{margin-top: 339px;}
+    .modal-dialog_close-button{right: -49px;}
+}
+@media (min-width: 1300px) and (max-width: 1319px){
+    .man{
+        &_form{margin-top: 190px;}
+        &_triangle-right{top: 296px;}
+    }
+    .repair_triangle-left{top: 122px;}
+    .humidifiers_background{width: 448px;}
+    .humidifiers_list-item.active::before{right: 349px;}
+    .woman_form{margin-top: 337px;}
+    .modal-dialog_close-button{right: -40px;}
+}
+@media (min-width: 1280px) and (max-width: 1299px){
+    .man{
+        &_form{margin-top: 198px;}
+        &_triangle-right{top: 265px;}
+    }
+    .humidifiers_list-item.active::before{right: 348px;}
+}
+@media (min-width: 1260px) and (max-width: 1279px){
+    .man{
+        margin-top: 167px;
+        &_form{margin-top: 190px;}
+        &_triangle-right{top: 246px;}
+    }
+}
+@media (min-width: 1220px) and (max-width: 1259px){
+    .header{
+        &_logo-photo{margin-left: 30px;}
+        &_big-line{margin-top: 4px;}
+    }
+    .man{
+        margin-top: 171px;
+        &_form{margin-top: 197px;}
+        &_triangle-right{top: 247px;}
+    }
+    .humidifiers_background{width: 417px;}
+    .woman_form{margin-top: 331px;}
+}
+@media (min-width:1200px) and (max-width: 1219px){
+    .header_big-line{margin-top: 4px;}
+    .man{
+        margin-top: 154px;
+        &_form{margin-top: 192px;}
+        &_triangle-right{top: 231px;}
+    }
+    .repair_triangle-left{top: 133px;}
+    .humidifiers_background{width: 398px;}
+    .modal-dialog_close-button{right: 4px;}
+    .modal-order{justify-content: space-around;}
+    .modal-dialog_price_block-order{width: 299px;}
+    .woman_form{margin-top: 329px;}
+}
+@media (min-width: 1180px) and (max-width: 1199px){
+    .man_triangle-right{top: 83px;}
+    .humidifiers_background{width: 407px;}
+    .repair_triangle-left{top: 112px;}
+    .woman_form{margin-top: 254px;}
+}
+
+@media (min-width: 1140px) and (max-width: 1179px){
+    .man_triangle-right{
+        left: 274px;
+        top: 79px;
+    }
+    .repair_triangle-left{
+        right: 156px;
+        top: 122px;
+    }
+    .humidifiers_background{width: 402px;}
+    .woman_form{margin-top: 253px;}
+}
+@media (min-width: 1120px) and (max-width: 1139px){
+    .header_big-line{transform: rotate(9deg);}
+    .man{
+        &_form{margin-top: 165px;}
+        &_triangle-right{
+            left: 254px;
+            top: 77px;
+        }
+    }
+    .repair_triangle-left{
+        right: 117px;
+        top: 129px;
+    }
+    .humidifiers_background{width: 382px;}
+    .woman_form{margin-top: 249px;}
+}
+@media (min-width: 1080px) and (max-width: 1119px){
+    .header_big-line{margin-top: 22px;}
+    .man{
+        margin-top: 107px;
+        &_triangle-right{
+            left: 240px;
+            top: 66px;
+        }
+    }
+    .repair_triangle-left{
+        right: 117px;
+        top: 127px;
+    }
+    .humidifiers_background{width: 386px;}
+    .woman_form{margin-top: 248px;}
+}
+@media (min-width: 1040px) and (max-width: 1079px){
+    .header{
+        &_logo-photo{margin-left: 30px;}
+        &_big-line{margin-top: 18px;}
+    }
+    .man{
+        margin-top: 86px;
+        &_triangle-right{
+            left: 240px;
+            top: 48px;
+        }
+    }
+    .repair_triangle-left{
+        right: 117px;
+        top: 123px;
+    }
+    .humidifiers_background{width: 349px;}
+    .woman_form{margin-top: 244px;}
+}
+@media (min-width: 1000px) and (max-width: 1039px){
+    .header{
+        &_triangle-topleft{
+            border-top:222px solid #ff0000;
+            border-right: 65px solid transparent;
+        }
+        &_logo-photo{margin-left: 30px;}
+        &_big-line{margin-top: 18px;}
+    }
+    .man{
+        margin-top: 59px;
+        &_form{margin-top: 153px;}
+        &_triangle-right{
+            left: 165px;
+            top: -2px;
+        }
+    }
+    .repair_triangle-left{
+        right: 80px;
+        top: 126px;
+    }
+    .humidifiers_background{width: 349px;}
+    .modal-dialog_close-button{right: 7px;}
+    .modal-dialog_price_block-subtitle{margin-left: -3px;}
+    .modal-order{justify-content: space-around;}
+    .woman_form{margin-top: 240px;}
+}
+@media (min-width: 960px) and (max-width: 979px){
+    .header_big-line{margin-top: 10px;}
+    .man_form{margin-top: 165px;}
+    .woman_form{margin-top: 163px;}
+}
+@media (min-width: 940px) and (max-width: 959px){
+    .header_big-line{margin-top: 8px;}
+    .man{
+        margin-top: 170px;
+        &_triangle-right{top: 55px;}
+    }
+    .repair_triangle-left{top: 148px;}
+    .woman_form{margin-top: 162px;}
+}
+@media (min-width: 900px) and (max-width: 939px){
+    .header_big-line{margin-top: 6px;}
+    .man{
+        margin-top: 159px;
+        &_triangle-right{top: 47px;}
+    }
+    .repair_triangle-left{top: 148px;}
+    .humidifiers_background{width: 360px;}
+    .woman_form{margin-top: 160px;}
+}
+@media (min-width: 840px) and (max-width: 899px){
+    .header_big-line{
+        margin-top: 4px;
+        transform: rotate(9deg);
+    }
+    .drops_photo{width: 73%;}
+    .man{
+        margin-top: 138px;
+        &_triangle-right{top: 30px;}
+    }
+    .repair_triangle-left{top: 144px;}
+    .humidifiers_background{width: 348px;}
+    .modal-dialog_close-button{right: -44px;}
+    .woman_form{margin-top: 157px;}
+}
+@media (min-width: 800px) and (max-width:839px){
+    .header_big-line{transform: rotate(9deg);}
+    .man{
+        margin-top: 124px;
+        &_triangle-right{top: -18px;}
+    }
+}
+@media (min-width: 780px) and (max-width:799px){
+    .header_big-line{
+        transform: rotate(9deg);
+        margin-top: -4px;
+    }
+    .man{
+        margin-top: 124px;
+        &_triangle-right{top: -29px;}
+        &_photo{width: 124%;}
+        &_list-item{line-height: 30px!important;}
+    }
+    .humidifiers{
+        &_list_content-logo{margin-right: 20px;}
+        &_button_content-block{
+            flex-direction: column;
+            align-items: center;
+        }
+        &_list_content-button{
+            width: 246px;
+            margin: 10px;
+            span{font-size: 24px;}
+        }
+    }
+    .modal-dialog_close-button{right: -8px;}
+}
+@media (min-width: 740px) and (max-width:759px){
+    .man_triangle-right{top: 60px;}
+} 
+@media (min-width: 720px) and (max-width:739px){
+    .header_big-line{
+        margin-top: -6px;
+        transform: rotate(9deg);
+    }
+    .components_list span{left: 331px;}
+    .man_triangle-right{top: 62px;}
+} 
+@media (min-width: 700px) and (max-width:719px){
+    .drops_photo{width: 91%;}
+    .header_big-line{margin-top: -9px;}
+    .components_list span{left: 315px;}
+    .man_triangle-right{top: 65px;}
+    .repair_triangle-left{top: 164px;}
+    .humidifiers_background{width: 350px;}
+}  
+@media (min-width: 580px) and (max-width: 680px){
+    .header_big-line{display: none;}
+}
+@media (min-width: 680px) and (max-width:699px){
+    .drops_photo{width: 92%;}
+    .services_triangle-right{top: -161px;}
+    .components_list span{left: 303px;}
+    .man_triangle-right{top: 67px;}
+    .repair_triangle-left{top: 163px;}
+    .humidifiers_background{width: 340px;}
+    .modal-dialog_close-button{right: -44px;}
+    .woman_form{margin-top: 143px;}
+}
+@media (min-width:580px) and (max-width: 660px){
+    #v-pills-humiSteam,#v-pills-thermoSteam,#v-pills-compactSteam,#v-pills-heaterSteam,#v-pills-gaSteam{margin-right: 60px;}
+}
+@media (min-width: 640px) and (max-width:679px){
+    .drops_photo{width: 92%;}
+    .services_triangle-right{top: -161px;}
+    .components_list span{left: 300px;}
+    .man_triangle-right{
+        top: 61px;
+        left: -129px;
+    }
+    .repair_triangle-left{top: 163px;}
+    .humidifiers_background{width: 340px;}
+    .modal-dialog_close-button{right: -44px;}
+    .woman_form{margin-top: 143px;}
+}
+@media (min-width: 600px) and (max-width:639px){
+    .drops_photo{width: 95%;}
+    .services_triangle-right{top: -161px;}
+    .components_list span{left: 280px;}
+    .man_big_red-block{width: 121%;}
+    .man_triangle-right{
+        top: 63px;
+        left: -129px;
+    }
+    .repair_triangle-left{top: 157px;}
+    .humidifiers_background{width: 315px;}
+    .modal-dialog_close-button{right: -26px;}
+    .woman_form{margin-top: 141px;}
+}
+@media (min-width: 580px) and (max-width:599px){
+    .drops_photo{width: 98%;}
+    .services_triangle-right{top: -161px;}
+    .components_list span{left: 260px;}
+    .man_big_red-block{width: 121%;}
+    .man_triangle-right{
+        top: 57px;
+        left: -190px;
+    }
+    .repair_triangle-left{
+        top: 163px;
+        right: -292px;
+    }
+    .humidifiers_background{width: 295px;}
+    .modal-dialog_close-button{right: -4px;}
+    .woman_form{margin-top: 137px;}
+}
+@media (min-width: 1px) and (max-width:579px){
+    .humidifiers_list_content-button_block{margin-top: 30px;}
+    .man_big_red-block{transform: rotate(0deg);}
+    .repair_big-line{transform: rotate(0deg);}
+}
+@media (min-width: 560px) and (max-width:579px){
+    .repair_big-line{bottom: -45px;}
+    .humidifiers_list-item.active::before{
+        right: 492px;
+    }
+    .owl-item{height:235px;}
+    .reviews_block_big-line{height:738px;}
+}
+@media (min-width: 540px) and (max-width:559px){
+    .repair_big-line{bottom: -45px;}
+    .owl-item{height:225px;}
+    .reviews_block_big-line{height:738px;}
+}
+@media (min-width: 520px) and (max-width:539px){
+    .repair_big-line{bottom: -40px;}
+    .components_list span{left: 230px;}
+    .humidifiers_list-item.active::before{
+        right: 452px;
+    }
+    .owl-item{height:215px;}
+    .reviews_block_big-line{height:738px;}
+}
+@media (min-width: 480px) and (max-width:519px){
+    .repair_big-line{bottom: -40px;}
+    .components_list span{left: 230px;}
+    .humidifiers_list-item.active::before{
+        right: 435px;
+    }
+    .owl-item{height:210px;}
+    .reviews_block_big-line{
+        height:751px;
+        width: 139%;
+        bottom: -94px;
+    }
+}
+@media (min-width: 460px) and (max-width:479px){
+    .services_big-line{bottom: -56px;}
+    .repair_big-line{bottom: -14px;}
+    .components_list{
+        span{left: 210px;}
+        &_first-number{bottom: 355px;}
+        &_second-number{bottom: 227px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 395px;
+    }
+    .man_list{padding-left: 35px;}
+    .owl-item{height:190px;}
+    .reviews_block_big-line{
+        height:751px;
+        width: 145%;
+        bottom: -98px;
+    }
+    .modal-dialog{
+        &_model_block-title{
+            font-size: 22px;
+            line-height: 34px;
+        }
+        &_price_block{
+            &-subtitle{margin-left: 5px;}
+            &-title{font-size: 18px;}
+            &-rubles{font-size: 22px;}
+            &-number{
+                width: 140px;
+                &-background{
+                    width: 54px;
+                    right: 28%;
+                }
+            }
+            &-order{
+                width: 132px;
+                span{left: calc(20%);}
+            }
+        }
+    }
+}
+@media (min-width: 420px) and (max-width: 459px){
+    .services_big-line{bottom: -56px;}
+    .services_triangle-right{top: -160px;}
+    .repair_big-line{bottom: -14px;}
+    .components_list{
+        span{left: 200px;}
+        &_first-number{bottom: 355px;}
+        &_second-number{bottom: 227px;}
+    }
+    .man_list{padding-left: 35px;}
+    .form{
+        width: 370px;
+        &-item{width: 317px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 375px;
+    }
+    .owl-item{height:180px;}
+    .reviews_block_big-line{
+        height:751px;
+        width: 145%;
+        bottom: -98px;
+    }
+    .modal-dialog{
+        &_model_block-title{
+            font-size: 22px;
+            line-height: 34px;
+        }
+        &_price_block{
+            &-subtitle{margin-left: 5px;}
+            &-title{font-size: 18px;}
+            &-rubles{font-size: 22px;}
+            &-number{
+                width: 140px;
+                &-background{
+                    width: 54px;
+                    right: 28%;
+                }
+            }
+            &-order{
+                width: 132px;
+                span{left: calc(20%);}
+            }
+        }
+    }
+}
+@media (min-width: 400px) and (max-width: 419px){
+    .components_list{
+        span{left: 180px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 335px;
+    }
+}
+@media (min-width: 380px) and (max-width: 399px){
+    .humidifiers_list-item.active::before{
+        right: 313px;
+    }
+}
+@media (min-width: 300px) and (max-width: 360px){
+    .header_title{line-height: 43px;}
+}
+@media (min-width: 340px) and (max-width: 359px){
+    .components_list{
+        span{left: 150px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 275px;
+    }
+    .humidifiers_list-line{height:669px;}
+    .owl-item{height:130px;}
+}
+@media (min-width: 200px) and (max-width: 320px){
+    .modal-order{
+        flex-direction: column;
+        align-items: center;
+    }
+    .modal-dialog_price_block-order{margin-top: 10px;}
+}
+@media (min-width: 320px) and (max-width: 339px){
+    .info .telephone{font-size: 16px;}
+    .components_list{
+        span{left: 140px;}
+    }
+    .form{width: 263px;}
+    .repair_big-line{height:467px;}
+    .humidifiers{
+        &_title{
+            font-size: 37px;
+            line-height: 54px;
+        }
+        &_button{width: 252px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 255px;
+    }
+    .humidifiers_list-line{height:669px;}
+    .owl-item{height:120px;}
+    .reviews_block_big-line{width: 159%;}
+}
+@media (min-width: 300px) and (max-width: 319px){
+    .info .telephone{font-size: 16px;}
+    .services{
+        &_triangle-right{top: -75px;}
+        &_big-line{bottom: -32px;}
+    }
+    .components_list{
+        span{left: 126px;}
+        &_first-number{bottom: 386px;}
+        &_second-number{bottom: 263px;}
+        &_third-number{bottom: 91px;}
+    }
+    .man_big_red-block{bottom: -97px;}
+    .form{
+        width: 230px;
+        &-item{width: 176px;}
+    }
+    .repair_big-line{height:467px;}
+    .humidifiers{
+        &_title{
+            font-size: 37px;
+            line-height: 54px;
+        }
+        &_button{width: 230px;}
+        &_list_content-button{width: 242px;}
+    }
+    .humidifiers_list-item.active::before{
+        right: 250px;
+    }
+    .humidifiers_list-line{height:669px;}
+    .owl-item{height:115px;}
+    .reviews_block_big-line{
+        width: 172%;
+        height:843px;
+    }
+}
+@media (min-width: 280px) and (max-width:299px){
+    .info .telephone{font-size: 13px;}
+    .info .back-call{font-size: 14px;}
+    .repair_pluses{margin-left: 20px;}
+}
+@media (min-width: 412px) and (max-width: 415px){
+    .components_list{
+        span{left: 183px;}
+        &_first-number{bottom:282px;}
+        &_second-number{bottom:158px;}
+    }
+    .humidifiers_list-item.active::before{right: 346px;}
+    .owl-item{height:167px}
+}
+@media (min-width: 390px) and (max-width: 394px){
+    .humidifiers_list-item.active::before{right: 323px;}
+}
+@media (min-width: 1000px) and (max-width: 1025px){
+    .header{
+        &_logo-photo{
+            margin-left: 40px;
+            width: 171px;
+        }
+        &_big-line{margin-top: 15px;}
+    }
+    .man{
+        &_photo{
+            top: 60px;
+            width: 123%;
+        }
+        &_list-item{line-height: 42px!important;}
+        &_form{margin-top: 183px;}
+        &_triangle-right{
+            left: 113px;
+            top: -1px;
+        }
+    }
+    .repair_triangle-left{
+        right: 17px;
+        top: 138px;
+    }
+    .humidifiers_background{width: 332px;}
+    .modal-dialog_close-button{right: 3px;}
+    .reviews_block_big-line{width: 122%;}
+    .woman_form{
+        margin-top: 230px;
+        &-title{font-size: 34px;}
+    }
+}
